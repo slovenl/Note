@@ -53,16 +53,21 @@
 第三步，在.vimrc中输入set nu
 第四步，保存退出.
 
+* 原码、补码（内存存储的类型）、反码
 
 
+####字符串
 
+`char a[10]={1,2,3,4,5,6,7,9}`
+`sizeof(a)/sizeof(a[0])`
+`char a[10]={0}`
 
-
-
-
-
-
-
+* gets()、fgets()、puts(/*自动加\n*/)、fputs(/*不会加\n*/)
+* strlen()------<string.h>/*不包含\0的长度*/
+* strcat(a,b)-----/*合并ab，放入a*/
+* strncat(a,b,num)----/*num为追加个数*/
+* strcmp(a,b)------/*compare a,b字符串是否相同*/
+* strncmp(a,b,num)-----/*compare num*/
 
 
 
