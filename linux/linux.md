@@ -56,18 +56,35 @@
 * 原码、补码（内存存储的类型）、反码
 
 
-####字符串
+#### 字符串
 
 `char a[10]={1,2,3,4,5,6,7,9}`
 `sizeof(a)/sizeof(a[0])`
 `char a[10]={0}`
 
-* gets()、fgets()、puts(/*自动加\n*/)、fputs(/*不会加\n*/)
-* strlen()------<string.h>/*不包含\0的长度*/
-* strcat(a,b)-----/*合并ab，放入a*/
-* strncat(a,b,num)----/*num为追加个数*/
-* strcmp(a,b)------/*compare a,b字符串是否相同*/
-* strncmp(a,b,num)-----/*compare num*/
+* gets()、fgets()、puts(/*auto add \n*/)、fputs(/*no \n*/)
+* strlen()------<string.h>/*besides len of \0*/
+* strcat(a,b)-----/*put b to a*/
+* strncat(a,b,num)----/*put num b to a*/
+* strcmp(a,b)------/*compare a equals b */
+* strncmp(a,b,num)-----/*compare num before*/
+* strcpy(a,b)
+* strncpy(a,b,num)
+* prinf 、sprintf(print to char[])
+* strchr---/*search sub str by char*/ 、strstr----/*search sub str by char[]*/
+* strtok(char[] or NULL,"SYBOAL")-----/*like split*/
+* atoi(a)-----/*Integer.valueof(s)*/
+* atof(a)、atol(a)
+
+#### 函数
+
+* exit(0)
+* ifdef、ifndef、define
+
+
+
+
+
 
 
 
