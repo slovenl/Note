@@ -81,6 +81,13 @@
 * exit(0)
 * ifdef、ifndef、define
 
+#### 指针
+
+* & 取址、
+* const int *p //p是一个变量，可以改变指向
+* int *const p  //p是一个常量，指向的地址不能变
+* ip地址实际上是一个int值
+
 
 
 
