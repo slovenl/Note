@@ -56,37 +56,7 @@
 * 原码、补码（内存存储的类型）、反码
 
 
-#### 字符串
 
-`char a[10]={1,2,3,4,5,6,7,9}`
-`sizeof(a)/sizeof(a[0])`
-`char a[10]={0}`
-
-* gets()、fgets()、puts(/*auto add \n*/)、fputs(/*no \n*/)
-* strlen()------<string.h>/*besides len of \0*/
-* strcat(a,b)-----/*put b to a*/
-* strncat(a,b,num)----/*put num b to a*/
-* strcmp(a,b)------/*compare a equals b */
-* strncmp(a,b,num)-----/*compare num before*/
-* strcpy(a,b)
-* strncpy(a,b,num)
-* prinf 、sprintf(print to char[])
-* strchr---/*search sub str by char*/ 、strstr----/*search sub str by char[]*/
-* strtok(char[] or NULL,"SYBOAL")-----/*like split*/
-* atoi(a)-----/*Integer.valueof(s)*/
-* atof(a)、atol(a)
-
-#### 函数
-
-* exit(0)
-* ifdef、ifndef、define
-
-#### 指针
-
-* & 取址、
-* const int *p //p是一个变量，可以改变指向
-* int *const p  //p是一个常量，指向的地址不能变
-* ip地址实际上是一个int值
 
 
 
